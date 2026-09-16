@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(255, 247, 240);
+}
+
+.carrot-image {
+     transform: scale(1);
+      transition: 
+        transform 0.3s ease,
+        border-radius 0.3s ease,
+        border 0.3s ease;
+}
+
+.carrot-image:hover {
+    border: 3px solid #f8ddb8;
+    border-radius: 10%;
+    transform: scale(1.05);
+}
